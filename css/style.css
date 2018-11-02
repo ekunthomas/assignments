@@ -1,0 +1,112 @@
+body {
+	padding: 10px;
+    margin: 0.5%;
+    background-image: url("../images/andela.png");
+	background-size:100%;
+	padding:20px;
+}
+ header {
+	background-color: #848E66;
+	/* background-image: url("../images/andela.png");
+	background-size:100%; */
+	padding: 5px;
+}
+
+ h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: x-large;
+	text-transform: uppercase;
+}
+
+ nav a{
+	display: inline-block;
+	margin: 1%;
+		
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+ 	text-decoration: none;
+	padding: 1%;
+ 	color: #000000;
+	text-align: center;
+	vertical-align: top;
+	background-color: rgba(218,234,213,0.60);
+	width: 250px;
+	height: 40px;
+}
+
+ .active {
+	background-color: #FFFFFF;
+}
+
+ .left {
+	background-color: #848E66;
+	width: 24%;
+	float:left;
+	padding: 5% 0;
+}
+
+ .right {
+	width:74%;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+ /* .left img {
+	border: solid 1px #000000;
+	width: 80%;
+	margin: 10%;
+}
+
+table {
+  overflow: hidden;
+  border-collapse: collapse;
+  display: inline-block;
+}
+
+td, th {
+	border: 1px solid #FFFFFF;
+    padding: 8px;
+    background-color: #F0FFF0;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+th {
+  background-color:#808000;
+  color: #FFFFFF
+} */
+
+/**Row **/
+td:hover::before { 
+    background-color: #eee;
+    content: '';  
+    height: 100%;
+    left: -5000px;
+    position: absolute;  
+    top: 0;
+    width: 10000px;   
+    z-index: -2;        
+}
+
+/*  */
+td:hover::after { 
+    background-color: #ffa;
+    content: '';  
+    height: 10000px;    
+    left: 0;
+    position: absolute;  
+    top: -5000px;
+    width: 100%;
+    z-index: -1;        
+}
+
+/*  */
+body {
+  margin:10em;
+}
