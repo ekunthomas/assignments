@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 /* body {
+=======
+body {
+>>>>>>> d0088c60a6f1d23ed5105d5f80b5824c109cbacc
 	padding: 10px;
     margin: 0.5%;
     background-image: url("../images/andela.png");
 	background-size:100%;
 	padding:20px;
+<<<<<<< HEAD
 } */
 
 html {
@@ -71,13 +76,25 @@ header {
 	/* background-image: url("../images/andela.png");
 	background-size:100%; */
 	padding: 3px;
+=======
+}
+ header {
+	background-color: #848E66;
+	/* background-image: url("../images/andela.png");
+	background-size:100%; */
+	padding: 5px;
+>>>>>>> d0088c60a6f1d23ed5105d5f80b5824c109cbacc
 }
 
  h1 {
 	text-align: center;
 	color: #FFFFFF;
 	font-size: x-large;
+<<<<<<< HEAD
 	/* text-transform: uppercase; */
+=======
+	text-transform: uppercase;
+>>>>>>> d0088c60a6f1d23ed5105d5f80b5824c109cbacc
 }
 
  nav a{
@@ -167,7 +184,14 @@ td:hover::after {
     z-index: -1;        
 }
 
+<<<<<<< HEAD
 /* 
 body {
   margin:10em;
 } */
+=======
+/*  */
+body {
+  margin:10em;
+}
+>>>>>>> d0088c60a6f1d23ed5105d5f80b5824c109cbacc
